@@ -1,0 +1,32 @@
+<div>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>idade</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td (click)="chamarNome()">{{nome}}</td>
+                    <td (click)="checarIdade()">{{idade}}</td>
+                    <td>{{status}}</td>
+                </tr>  
+            </tbody>
+        </table>
+    </div>
+
+    <div>
+        <!-- <h1 [ngClass]="{online: allowUserOnline}">Usuário</h1> -->
+        <h2 [ngClass]="{verdadeiro: idadeVerificada }">Verdadeiro</h2>
+        <h2 [ngClass]="{falso: idadeVerificada == false}">Falso</h2>
+        <!-- <h2 [ngClass]="{togglecolor: toggleColor}">Troque de cor</h2> -->
+        
+    </div>
+</div>
+
+
+
+

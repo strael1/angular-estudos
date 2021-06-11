@@ -1,0 +1,33 @@
+table tr th{
+    padding: 20px;
+    border: solid 1px #cecece;
+    background-color: #121212;
+    color: #fff;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table tr td {
+    padding: 20px;
+    border: solid 1px #cecece;
+}
+
+
+.online {
+    background: green;
+    color: #fff;
+}
+
+.verdadeiro {
+    background-color: green;
+}
+
+.falso {
+    background-color: red;
+}
+
+.togglecolor {
+    background: brown;
+}
